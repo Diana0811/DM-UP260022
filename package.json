@@ -1,0 +1,17 @@
+{
+  "name": "typescriptd",
+  "version": "1.0.0",
+  "description": "Curso de Typescript",
+  "license": "ISC",
+  "author": "Diana Laura Macias Gomez",
+  "type": "commonjs",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "tsx watch ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^25.0.10",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
